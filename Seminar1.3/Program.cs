@@ -14,14 +14,12 @@
 
 switch(number)
 {
-    default: Console.WriteLine($"{number}");
-    break;
-
     case 3:
        Console.WriteLine("СРЕДА");
        break;
     case 5:
         Console.WriteLine("ПЯТНИЦА");
         break;
-    
+    default: Console.WriteLine($"{number}");
+    break;
 }
