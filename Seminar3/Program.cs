@@ -73,6 +73,6 @@ x2 = Convert.ToDouble(Console.ReadLine());
 Console.Write("Введите координаты y2: ");
 y2 = Convert.ToDouble(Console.ReadLine());
 
-distance = Math.Sqrt(Math.Pow(x2-x1,2 )+Math.Pow(y2-y1,2));
-Console.WriteLine("Расстояние между двумя точками на плоскости равно  " + Math.Round(distance,2));
+distance = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
+Console.WriteLine("Расстояние между двумя точками на плоскости равно  " + Math.Round(distance, 2));
 
