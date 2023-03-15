@@ -52,7 +52,7 @@
 // for(int i = 1; i<=number; i++)
 // {
 //     int quarter = i*i;
-//     Console.WriteLine(quarter+ "\t");
+//     Console.WriteLine(quarter + '\t');
 // }
 
 //вычислить расстояние между двумя точками на плоскости
