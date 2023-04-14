@@ -55,14 +55,14 @@ double MinNumber(double[] array)
     for(int i=1; i< array.Length; i++)
         if(array[min]>array[i])
             min = i;
-return min;
+return array[min];
 }
 double MaxNumber(double[] array)
 {   int max = 0;
     for(int i =1; i <array.Length; i++)
         if (array[max]<array[i])
         max = i;
-    return max;
+    return array[max];
 }
 double a = MaxNumber(array);
 double b = MinNumber(array);
